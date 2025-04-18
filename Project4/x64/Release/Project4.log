@@ -1,0 +1,30 @@
+﻿  main.cpp
+  Object.cpp
+C:\Users\PC\Desktop\3-2 (1)\Project4\func.h(97,28): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\PC\Desktop\3-2 (1)\Project4\func.h(98,28): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\PC\Desktop\3-2 (1)\Project4\func.h(108,27): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\PC\Desktop\3-2 (1)\Project4\func.h(109,27): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(44,16): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(55,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(388,31): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(398,31): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(401,30): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(409,31): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(418,31): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(422,30): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(434,30): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\PC\Desktop\3-2 (1)\Project4\main.cpp(442,30): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\PC\Desktop\3-2 (1)\Project4\func.h(89): warning C4172: 지역 변수 또는 임시 : cpos의 주소를 반환하는 중
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  Project4.vcxproj -> C:\Users\PC\Desktop\3-2 (1)\x64\Release\Project4.exe
