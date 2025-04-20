@@ -86,6 +86,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMessage, WPARAM wParam, LPARAM lParam)
 		{
 			is_init = true;
 			int count = 0;
+			playerthrow = 0;
+			Aithrow = 0;
+			playeridx = 1;
+			aiidx = 1;
 			while (count != 30)
 			{
 				if (count < 6)
@@ -208,7 +212,15 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMessage, WPARAM wParam, LPARAM lParam)
 		DeleteObject(hPen);
 		if (Playermal.getPos() == Player[0].getPos())
 		{
-			int a = 0;
+			TextOut(hDC, 500, 50, L"PLAYER VICTORY", strlen("PLAYER VICTORY"));
+			is_init = false;
+			KillTimer(hWnd, 1);
+		}
+		if (Aimal.getPos() == Player[0].getPos())
+		{
+			TextOut(hDC, 500, 50, L"AI VICTORY", strlen("AI VICTORY"));
+			is_init = false;
+			KillTimer(hWnd, 2);
 		}
 		EndPaint(hWnd, &ps);
 		break;
@@ -231,6 +243,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT uMessage, WPARAM wParam, LPARAM lParam)
 				Aithrow = rand() % 4 + 1;
 				SetTimer(hWnd, 2, 200, NULL);
 			}
+			break;
+		case 's':
+		{
+			is_init = false;
+		}
+			
 			break;
 		}
 		

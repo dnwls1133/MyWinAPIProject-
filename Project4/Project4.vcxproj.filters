@@ -27,6 +27,9 @@
     <ClCompile Include="Object.cpp">
       <Filter>04_NewFilter1</Filter>
     </ClCompile>
+    <ClCompile Include="3-5.cpp">
+      <Filter>02_소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Object.h">
